@@ -13,7 +13,7 @@ public class arrayOfRandomNumberGenerator extends Thread{
         @Override
         public void run() {
             int sommaNumeri = 0;
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 1000; i++) {
                 int number = r.nextInt(100);
                 sommaNumeri = sommaNumeri + number;
             }
